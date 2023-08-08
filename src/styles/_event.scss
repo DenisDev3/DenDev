@@ -4,16 +4,18 @@
     background-image: linear-gradient(#1b6ca7, #442bdb);
 
     &--frontend {
-        background-image: linear-gradient(variables.$blue1, variables.$blue2);
+        white-space: pre-line;
+        text-align: center;
+        background-image: linear-gradient(variables.$red, variables.$gray);
     }
     &--ux-ui {
-        background-image: linear-gradient(variables.$blue2, variables.$pink);
+        background-image: linear-gradient(variables.$gray, variables.$gray);
     }
     &--data-science {
-        background-image: linear-gradient(variables.$pink, variables.$yellow);
+        background-image: linear-gradient(variables.$gray, variables.$red);
     }
     &--backend {
-        background-image: linear-gradient(variables.$yellow, variables.$pink);
+        background-image: linear-gradient(variables.$red, variables.$black);
     }
     &--image-left {
         .container {
@@ -26,16 +28,27 @@
     }
 
     &__image {
-        max-width: 360px;
+        max-width: 200px;
+        max-width: 200px;
     }
 
     &__details {
+        color: variables.$orange;
+        background-image: url(../images/fundo.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        padding: 8px;
+        box-shadow: inset 0px 0px 10px 5px variables.$orange;
+        background-image: linear-gradient(variables.$textColor, variables.$textColor);
+        opacity: 0.6;
         &__title {
             font-size: 18px;
             font-weight: bold;
             margin-bottom: 16px;
         }
         &__description {
+            text-orientation: initial;
             line-height: 22px;
         }
     }
