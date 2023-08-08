@@ -40,8 +40,8 @@
         position: relative;
         padding: 8px;
         box-shadow: inset 0px 0px 10px 5px variables.$orange;
-        background-image: linear-gradient(variables.$textColor, variables.$textColor);
-        opacity: 0.6;
+        background-image: linear-gradient(variables.$gray2, variables.$gray2);
+        // opacity: 0.6;
         &__title {
             font-size: 18px;
             font-weight: bold;
