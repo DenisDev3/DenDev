@@ -9,13 +9,18 @@
         background-image: linear-gradient(variables.$red, variables.$gray);
     }
     &--ux-ui {
-        background-image: linear-gradient(variables.$gray, variables.$gray);
+        text-align: center;
+        background-image: url(../images/fundo.png);
+        background-size: cover;
+        // background-image: linear-gradient(variables.$gray, variables.$gray);
     }
     &--data-science {
         background-image: linear-gradient(variables.$gray, variables.$red);
     }
     &--backend {
-        background-image: linear-gradient(variables.$red, variables.$black);
+        background-image: url(../images/fundo.png);
+        background-size: cover;
+        // background-image: linear-gradient(variables.$red, variables.$black);
     }
     &--image-left {
         .container {
